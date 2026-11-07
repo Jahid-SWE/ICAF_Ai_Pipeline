@@ -25,7 +25,7 @@ If a block's edges are unclear, or a style is a guess, add a line to `doubts` (f
 
 ## Hard rules
 - **Never write any words.** There is no `text` field in your output. Words come from the text vote.
-- Boxes must include every letter, including small marks above and below the line. There is no OCR to snap to, so you judge pixel positions by eye: when unsure, make the box slightly too wide rather than too tight (a letter cut off is worse than extra white space). Neighbouring boxes may touch but should not overlap much.
+- Boxes must include every letter, including small marks above and below the line. The top edge must sit above the tallest vowel sign or headmark of the first line by at least 30 px, and the bottom edge below the lowest mark of the last line by at least 30 px (this was missed on earlier runs). There is no OCR to snap to, so you judge pixel positions by eye: when unsure, make the box slightly too wide rather than too tight (a letter cut off is worse than extra white space). Neighbouring boxes may touch but should not overlap much.
 - Do not describe pictures. Another agent does that.
 - Cover all text, including page numbers, small labels and text inside tables.
 

@@ -1,0 +1,145 @@
+{
+  "page": 4,
+  "size": {
+    "width": 2550,
+    "height": 3270
+  },
+  "background": {
+    "color": "#8EC8F0",
+    "image_file": null,
+    "description": "Full-page outdoor scene: blue sky with white clouds at top, sandy brown ground at bottom, river and green trees behind. Printed text sits over the sky (top) and over the sand (bottom).",
+    "rebuild_notes": "Sky is light blue #8EC8F0 fading to paler blue near the horizon; ground is sandy orange-brown #E8B873. The scene contains the flag and pole (i1), the boat (i2) and the house at the left edge (i3), which are saved separately and not repeated here. The remaining landscape (banana trees, bamboo fence, bushes, river, distant tree line, grass strip) is not cropped as a separate picture; it cannot be cut out without also cutting the pictures above or the text."
+  },
+  "text_blocks": [
+    {
+      "id": "t1",
+      "type": "heading",
+      "text": "আমাদের দেশ, আমাদের পতাকা",
+      "text_status": "agreed",
+      "box": [
+        420,
+        190,
+        2130,
+        375
+      ],
+      "font": {
+        "name": "unknown Bangla sans (guess)",
+        "size_pt": 36,
+        "bold": true,
+        "italic": false,
+        "color": "#000000"
+      },
+      "align": "center",
+      "order": 1,
+      "ocr_confidence": 1.0
+    },
+    {
+      "id": "t2",
+      "type": "body",
+      "text": "আমাদের দেশ বাংলাদেশ। আমরা দেশকে ভালোবাসি। এই আমাদের পতাকা। পতাকার রং লাল আর সবুজ । আমাদের পতাকা সুন্দর।",
+      "text_status": "agreed",
+      "box": [
+        220,
+        2560,
+        2330,
+        3060
+      ],
+      "font": {
+        "name": "unknown Bangla sans (guess)",
+        "size_pt": 30,
+        "bold": false,
+        "italic": false,
+        "color": "#000000"
+      },
+      "align": "center",
+      "order": 2,
+      "ocr_confidence": 1.0
+    }
+  ],
+  "images": [
+    {
+      "id": "i1",
+      "file": "images/i1.png",
+      "box": [
+        828,
+        582,
+        1476,
+        2244
+      ],
+      "kind": "illustration",
+      "description": "A tall metal flagpole standing on a two-step grey-white concrete base, with the Bangladesh flag flying from the top: dark green field with a red disc slightly left of centre.",
+      "purpose": "Central focal picture of the page, shows the national flag the page is about",
+      "style": "photo-realistic, soft natural lighting, slight folds in the flag cloth",
+      "main_colors": [
+        "#006A4E",
+        "#F42A41",
+        "#B8A27A",
+        "#9C9C9C"
+      ],
+      "layer": 2,
+      "rotation_deg": 0,
+      "opacity": 1.0,
+      "overlaps_text": [],
+      "rebuild_notes": "Pole is thin and pale brass/grey, about 10 px wide in the crop; red disc is centred roughly at 45% of the flag width; flag is waving to the right. Box includes the plants and river behind the pole base, which are part of the background scene."
+    },
+    {
+      "id": "i2",
+      "file": "images/i2.png",
+      "box": [
+        2168,
+        1752,
+        2550,
+        1829
+      ],
+      "kind": "photo",
+      "description": "A small wooden river boat with a dark grey canopy over the middle, with one person standing at the back, on brown river water.",
+      "purpose": "Adds a small detail of river life to the right side of the scene",
+      "style": "photo-realistic, small and distant",
+      "main_colors": [
+        "#3E3A36",
+        "#6E6A63",
+        "#8A7558"
+      ],
+      "layer": 2,
+      "rotation_deg": 0,
+      "opacity": 1.0,
+      "overlaps_text": [],
+      "rebuild_notes": "Boat is about 230 px long and 50 px high in the crop; the canopy is a rounded grey metal shape; the person is at the stern on the right."
+    },
+    {
+      "id": "i3",
+      "file": "images/i3.png",
+      "box": [
+        0,
+        910,
+        426,
+        2788
+      ],
+      "kind": "photo",
+      "description": "The left edge of the scene: a corner of a small building with a sloped corrugated roof and a light grey concrete pillar, plus its concrete step at the bottom.",
+      "purpose": "Frames the left side of the scene as the edge of a house",
+      "style": "photo-realistic, cut off by the page edge on the left",
+      "main_colors": [
+        "#D9D6CF",
+        "#7A6A55",
+        "#8C8C8C"
+      ],
+      "layer": 2,
+      "rotation_deg": 0,
+      "opacity": 1.0,
+      "overlaps_text": [],
+      "rebuild_notes": "Roof is a dark sloped edge running from top-left to right; pillar is pale grey and about 40 px wide; the bottom steps are at the foot of the crop. Box includes some banana leaves and bushes at the right edge of the crop which are part of the background scene."
+    }
+  ],
+  "unknown_words": [],
+  "doubts": [
+    "t1: font name and size are a guess by eye (heading over the sky, black on blue)",
+    "t2: font name and size are a guess by eye; 3 centred lines in one block, box made wide and tall for the top and bottom margins",
+    "t1: box top edge chosen with extra margin above the headmarks; scale taken from the displayed size (1559x2000) to the real image (2550x3270)",
+    "t2: block ends near the bottom of the last line (the lower margin is about 30 px)",
+    "Background: the landscape between the pictures (river, banana trees, bamboo fence, bushes, grass strip, distant trees) is not saved as a separate image. It cannot be cut out without also cutting the flag, boat or house, so background image_file is null. A human should decide whether to keep it as one image with holes.",
+    "i1 and i3 boxes include small pieces of the background scene (plants, river, leaves) inside the rectangle; these are not pictures of their own.",
+    "Box edges are estimated from the displayed image (scale 1.64); check that the boat box and the house box include the whole object."
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,31 @@
+{
+  "text_agreement": 1.0,
+  "blocks": {
+    "t1": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "Working",
+      "reader2": "Working",
+      "reader3": null,
+      "diffs": []
+    },
+    "t2": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমাদের বাড়ি",
+      "reader2": "আমাদের বাড়ি",
+      "reader3": null,
+      "diffs": []
+    },
+    "t3": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "এটা আমাদের বাড়ি। শোবার ঘরে আমরা ঘুমাই। খাবার ঘরে আমরা খাই। মেহমানের ঘরে মেহমান বসেন। বাথরুমে হাত-মুখ ধুই। বারান্দায় খেলি।",
+      "reader2": "এটা আমাদের বাড়ি। শোবার ঘরে আমরা ঘুমাই। খাবার ঘরে আমরা খাই। মেহমানের ঘরে মেহমান বসেন। বাথরুমে হাত-মুখ ধুই। বারান্দায় খেলি।",
+      "reader3": null,
+      "diffs": []
+    }
+  },
+  "unknown_words": [],
+  "wordlist_missing": true
+}

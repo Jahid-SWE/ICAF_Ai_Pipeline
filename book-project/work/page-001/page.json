@@ -1,0 +1,101 @@
+{
+  "page": 1,
+  "size": {
+    "width": 2550,
+    "height": 3270
+  },
+  "background": {
+    "color": "#F8D0A4",
+    "image_file": null,
+    "description": "Warm peach page background with a few faint lighter diagonal light streaks on the left and right edges",
+    "rebuild_notes": "Flat peach colour across the page; faint pale light rays from upper left and along the left and right edges, no pattern and no printed text. Plain colour used because the streaks are very faint."
+  },
+  "text_blocks": [
+    {
+      "id": "t1",
+      "type": "heading",
+      "text": "আমি ও আমার পরিবার",
+      "text_status": "agreed",
+      "box": [
+        630,
+        185,
+        1920,
+        385
+      ],
+      "font": {
+        "name": "SolaimanLipi",
+        "size_pt": 36,
+        "bold": true,
+        "italic": false,
+        "color": "#E31E24"
+      },
+      "align": "center",
+      "order": 1,
+      "ocr_confidence": 1.0
+    },
+    {
+      "id": "t2",
+      "type": "body",
+      "text": "আমি নাবিল। আমার বোন নুহা। এই আমার বাবা, এই আমার মা। এই আমার দাদি। আমার দাদা বাড়িতে নেই। এই আমার পরিবার। আমরা সবাই একসাথে থাকি।",
+      "text_status": "agreed",
+      "box": [
+        215,
+        2385,
+        2360,
+        3065
+      ],
+      "font": {
+        "name": "SolaimanLipi",
+        "size_pt": 30,
+        "bold": false,
+        "italic": false,
+        "color": "#1B1B1B"
+      },
+      "align": "center",
+      "order": 2,
+      "ocr_confidence": 1.0
+    }
+  ],
+  "images": [
+    {
+      "id": "i1",
+      "file": "images/i1.png",
+      "box": [
+        110,
+        620,
+        2425,
+        2250
+      ],
+      "kind": "illustration",
+      "description": "A 3D-style rendered overhead view of a family sitting at a wooden dining table: a woman in a beige headscarf and sage-green sleeves on the upper right, a small boy in blue on the left, a girl in purple pyjamas on the right, and a boy in a white shirt and a woman in a pink patterned headscarf seated at the bottom. Six wooden chairs surround the table. On the table are a pot of yellow dal with a ladle, a plate of flatbread (roti), a bowl of fruit (bananas and apples), a bowl of cooked vegetables, a plate of cucumber and tomato, three plates of rice with side dishes, and four metal cups.",
+      "purpose": "Shows the family sitting together at the meal, as the picture for the page",
+      "style": "photorealistic-style 3D render, soft even lighting, soft shadows under the chairs and table, no outline",
+      "main_colors": [
+        "#E0A24A",
+        "#F7E7CF",
+        "#2B7BD6",
+        "#8E4FA3",
+        "#F4F2EE",
+        "#C9708C",
+        "#D9B07A",
+        "#F0C94A",
+        "#D63A2F"
+      ],
+      "layer": 2,
+      "rotation_deg": 0,
+      "opacity": 1.0,
+      "overlaps_text": [],
+      "rebuild_notes": "One crop of the whole scene (table, six chairs, people and food together). The people, chairs and food are not saved as separate pictures because they sit in one scene and touch each other. Include the chair shadows at the bottom. The scene has no printed text. The table is a warm orange wood with plank lines. Each person is seen from above and behind."
+    }
+  ],
+  "unknown_words": [],
+  "doubts": [
+    "t1: font name and size are a guess from the image",
+    "t2: font name and size are a guess; box covers 4 lines, top and bottom margins set at about 30 px by eye",
+    "t2: the four lines may need splitting into separate blocks if the vote fails on line breaks",
+    "Background colour #F8D0A4 is estimated by eye from the image; check against the real page",
+    "The faint light streaks on the background were left out (image_file null); a checker may want them as bg.png if they matter",
+    "The illustration box was set by eye from the displayed image (scale 1.64); the chair edges and shadows at the bottom should be checked against the crop"
+  ],
+  "status": "approved"
+}

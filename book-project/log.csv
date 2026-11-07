@@ -1,9 +1,9 @@
 page,status,confidence,coverage,crop_ssim,text_agreement,text_layer,attempts,note
-page-001,,,,,,bad_unicode_order,,
-page-002,,,,,,bad_unicode_order,,
-page-003,,,,,,bad_unicode_order,,
-page-004,,,,,,bad_unicode_order,,
-page-005,,,,,,bad_unicode_order,,
+page-001,approved,85.0,1.0,1.0,1.0,bad_unicode_order,1,approved by human reviewer
+page-002,approved,55.0,0.8842,1.0,1.0,bad_unicode_order,1,approved by human reviewer
+page-003,approved,55.0,0.5473,1.0,1.0,bad_unicode_order,1,approved by human reviewer
+page-004,approved,70.0,0.459,1.0,1.0,bad_unicode_order,1,approved by human reviewer
+page-005,approved,35.0,0.6704,1.0,1.0,bad_unicode_order,1,approved by human reviewer
 page-006,,,,,,bad_unicode_order,,
 page-007,,,,,,bad_unicode_order,,
 page-008,,,,,,bad_unicode_order,,

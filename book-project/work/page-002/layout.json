@@ -1,0 +1,20 @@
+{
+  "size": {"width": 2550, "height": 3270},
+  "text_blocks": [
+    {"id": "t1", "type": "heading", "box": [690, 1310, 1870, 1700],
+     "font": {"name": "Serif (English display)", "size_pt": 72, "bold": false, "italic": false, "color": "#231F20"},
+     "align": "center", "order": 1},
+    {"id": "t2", "type": "heading", "box": [510, 1850, 1300, 2070],
+     "font": {"name": "SolaimanLipi", "size_pt": 36, "bold": true, "italic": false, "color": "#E0202A"},
+     "align": "center", "order": 2},
+    {"id": "t3", "type": "body", "box": [200, 2069, 1630, 3113],
+     "font": {"name": "SolaimanLipi", "size_pt": 28, "bold": false, "italic": false, "color": "#231F20"},
+     "align": "center", "order": 3}
+  ],
+  "doubts": [
+    "t1: English heading 'Working' sits on a grey translucent box; box edges are a judgement by eye",
+    "t1: font name and size are guesses",
+    "t2: font name and size are guesses; the red title has a light glow behind it",
+    "t3: six Bangla lines in one block; line 1 top and line 6 bottom are estimated, font size is a guess"
+  ]
+}

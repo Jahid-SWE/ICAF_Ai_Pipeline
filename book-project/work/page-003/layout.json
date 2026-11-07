@@ -1,0 +1,22 @@
+{
+  "size": {"width": 2550, "height": 3270},
+  "text_blocks": [
+    {"id": "t1", "type": "heading", "box": [890, 200, 1660, 407],
+     "font": {"name": "unknown Bangla font", "size_pt": 42, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 1},
+    {"id": "t2", "type": "body", "box": [320, 2560, 2240, 2720],
+     "font": {"name": "unknown Bangla font", "size_pt": 30, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 2},
+    {"id": "t3", "type": "body", "box": [306, 2742, 2236, 2900],
+     "font": {"name": "unknown Bangla font", "size_pt": 30, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 3},
+    {"id": "t4", "type": "body", "box": [350, 2881, 2203, 3064],
+     "font": {"name": "unknown Bangla font", "size_pt": 30, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 4}
+  ],
+  "doubts": [
+    "t1: font name and size are guesses from the image; box edges estimated by eye from a downscaled view (display 1559x2000 mapped to 2550x3270 by x1.64)",
+    "t2-t4: body lines are placed as one block per line; font name and size are guesses",
+    "Page size taken from the original image dimensions (2550x3270); confirm against pages/page-003.png if the saved PNG differs"
+  ]
+}

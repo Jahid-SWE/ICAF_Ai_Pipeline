@@ -1,0 +1,30 @@
+{
+  "size": {"width": 2550, "height": 3270},
+  "text_blocks": [
+    {"id": "t1", "type": "heading", "box": [425, 190, 2120, 382],
+     "font": {"name": "unknown Bangla sans", "size_pt": 30, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 1},
+    {"id": "t2", "type": "body", "box": [700, 2255, 1845, 2390],
+     "font": {"name": "unknown Bangla sans", "size_pt": 24, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 2},
+    {"id": "t3", "type": "body", "box": [685, 2415, 1860, 2550],
+     "font": {"name": "unknown Bangla sans", "size_pt": 24, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 3},
+    {"id": "t4", "type": "body", "box": [780, 2585, 1765, 2720],
+     "font": {"name": "unknown Bangla sans", "size_pt": 24, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 4},
+    {"id": "t5", "type": "body", "box": [605, 2750, 1950, 2885],
+     "font": {"name": "unknown Bangla sans", "size_pt": 24, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 5},
+    {"id": "t6", "type": "body", "box": [730, 2915, 1815, 3065],
+     "font": {"name": "unknown Bangla sans", "size_pt": 24, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 6}
+  ],
+  "doubts": [
+    "t1: font weight looks regular or medium, not clearly bold; size and font name are estimates",
+    "t2-t6: font name and size_pt are estimates from the image, not measured",
+    "t1-t6: boxes re-drawn with at least 30 px margin above the first mark and below the last mark (attempt 2); edges still judged by eye from the display scale (x1.64)",
+    "Tiny chalk writing on the blackboard and the map/poster on the wall are inside the picture, not listed as text blocks; left for the picture-saver",
+    "No page number seen on this page"
+  ]
+}

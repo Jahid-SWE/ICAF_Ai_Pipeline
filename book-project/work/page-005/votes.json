@@ -1,0 +1,55 @@
+{
+  "text_agreement": 1.0,
+  "blocks": {
+    "t1": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমাদের দেশ, আমাদের পতাকা",
+      "reader2": "আমাদের দেশ, আমাদের পতাকা",
+      "reader3": null,
+      "diffs": []
+    },
+    "t2": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমাদের দেশ বাংলাদেশ।",
+      "reader2": "আমাদের দেশ বাংলাদেশ।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t3": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমরা দেশকে ভালোবাসি।",
+      "reader2": "আমরা দেশকে ভালোবাসি।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t4": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "এই আমাদের পতাকা।",
+      "reader2": "এই আমাদের পতাকা।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t5": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "পতাকার রং লাল আর সবুজ ।",
+      "reader2": "পতাকার রং লাল আর সবুজ ।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t6": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমাদের পতাকা সুন্দর।",
+      "reader2": "আমাদের পতাকা সুন্দর।",
+      "reader3": null,
+      "diffs": []
+    }
+  },
+  "unknown_words": [],
+  "wordlist_missing": true
+}

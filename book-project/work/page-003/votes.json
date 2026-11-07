@@ -1,0 +1,39 @@
+{
+  "text_agreement": 1.0,
+  "blocks": {
+    "t1": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমাদের স্কুল",
+      "reader2": "আমাদের স্কুল",
+      "reader3": null,
+      "diffs": []
+    },
+    "t2": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "এটা আমাদের স্কুল। আমাদের স্কুল ভালো।",
+      "reader2": "এটা আমাদের স্কুল। আমাদের স্কুল ভালো।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t3": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "স্কুলের মাঠ সুন্দর। আমি ছাত্র। নুহা ছাত্রী।",
+      "reader2": "স্কুলের মাঠ সুন্দর। আমি ছাত্র। নুহা ছাত্রী।",
+      "reader3": null,
+      "diffs": []
+    },
+    "t4": {
+      "status": "agreed",
+      "ocr_confidence": 1.0,
+      "reader1": "আমরা স্কুলে যাই। স্যার আমাদের পড়ান।",
+      "reader2": "আমরা স্কুলে যাই। স্যার আমাদের পড়ান।",
+      "reader3": null,
+      "diffs": []
+    }
+  },
+  "unknown_words": [],
+  "wordlist_missing": true
+}

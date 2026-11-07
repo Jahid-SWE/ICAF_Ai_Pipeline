@@ -1,0 +1,17 @@
+{
+  "size": {"width": 2550, "height": 3270},
+  "text_blocks": [
+    {"id": "t1", "type": "heading", "box": [420, 190, 2130, 375],
+     "font": {"name": "unknown Bangla sans (guess)", "size_pt": 36, "bold": true, "italic": false, "color": "#000000"},
+     "align": "center", "order": 1},
+    {"id": "t2", "type": "body", "box": [220, 2560, 2330, 3060],
+     "font": {"name": "unknown Bangla sans (guess)", "size_pt": 30, "bold": false, "italic": false, "color": "#000000"},
+     "align": "center", "order": 2}
+  ],
+  "doubts": [
+    "t1: font name and size are a guess by eye (heading over the sky, black on blue)",
+    "t2: font name and size are a guess by eye; 3 centred lines in one block, box made wide and tall for the top and bottom margins",
+    "t1: box top edge chosen with extra margin above the headmarks; scale taken from the displayed size (1559x2000) to the real image (2550x3270)",
+    "t2: block ends near the bottom of the last line (the lower margin is about 30 px)"
+  ]
+}

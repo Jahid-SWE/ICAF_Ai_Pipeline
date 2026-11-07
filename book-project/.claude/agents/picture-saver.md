@@ -41,6 +41,9 @@ Do the same for the page background: its colour, and if there is a pattern or gr
 - Every image needs a `file`, a `description`, a `purpose` and `rebuild_notes`.
 - A picture cannot be rebuilt from words: always save the real crop AND the description.
 - Do not crop text blocks as pictures. If a graphic holds text that is part of the picture, say so in `rebuild_notes`.
+- **Background has no printed text.** The background crop (`bg.png`) must not contain any printed words from `layout.json`'s text boxes. If the background cannot be cropped without the text, set `image_file` to `null` and describe the scene's colours and pattern in `rebuild_notes` instead.
+- **No double pictures.** Do not make one big crop that contains a smaller picture you also save separately. Crop each picture once; if a big scene contains others, crop the scene only around what is not already a separate picture, and say in `rebuild_notes` which pictures it contains.
+- Use the box corners from the displayed image carefully: the box must include all of the object, including its base and shadow.
 - If unsure about an edge or a missing graphic, add a line to `doubts`.
 
 ## Output

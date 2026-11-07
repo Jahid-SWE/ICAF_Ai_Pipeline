@@ -1,0 +1,16 @@
+{
+  "size": {"width": 2550, "height": 3270},
+  "text_blocks": [
+    {"id": "t1", "type": "heading", "box": [630, 185, 1920, 385],
+     "font": {"name": "SolaimanLipi", "size_pt": 36, "bold": true, "italic": false, "color": "#E31E24"},
+     "align": "center", "order": 1},
+    {"id": "t2", "type": "body", "box": [215, 2385, 2360, 3065],
+     "font": {"name": "SolaimanLipi", "size_pt": 30, "bold": false, "italic": false, "color": "#1B1B1B"},
+     "align": "center", "order": 2}
+  ],
+  "doubts": [
+    "t1: font name and size are a guess from the image",
+    "t2: font name and size are a guess; box covers 4 lines, top and bottom margins set at about 30 px by eye",
+    "t2: the four lines may need splitting into separate blocks if the vote fails on line breaks"
+  ]
+}
