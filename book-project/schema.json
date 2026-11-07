@@ -1,0 +1,97 @@
+{
+  "_comment": "Fixed contract for page.json (SPEC.md section 4). Do not change without telling everyone. Boxes are [left, top, right, bottom] in pixels from the top-left of the page image.",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "page.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["page", "size", "background", "text_blocks", "images", "unknown_words", "doubts", "status"],
+  "$defs": {
+    "box": {
+      "type": "array",
+      "items": {"type": "integer", "minimum": 0},
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "[left, top, right, bottom] in pixels from the top-left of the page image"
+    },
+    "color": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}
+  },
+  "properties": {
+    "page": {"type": "integer", "minimum": 1},
+    "size": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      }
+    },
+    "background": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["color", "image_file", "description", "rebuild_notes"],
+      "properties": {
+        "color": {"$ref": "#/$defs/color"},
+        "image_file": {"type": ["string", "null"], "description": "e.g. images/bg.png, or null for a plain colour"},
+        "description": {"type": "string", "minLength": 1},
+        "rebuild_notes": {"type": "string"}
+      }
+    },
+    "text_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "type", "text", "text_status", "box", "font", "align", "order", "ocr_confidence"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^t[0-9]+$"},
+          "type": {"enum": ["heading", "body", "caption", "table", "label"]},
+          "text": {"type": "string", "description": "Comes only from the vote (votes.json). Only a human may change it afterwards."},
+          "text_status": {"enum": ["agreed", "voted", "human"]},
+          "box": {"$ref": "#/$defs/box"},
+          "font": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "size_pt", "bold", "italic", "color"],
+            "properties": {
+              "name": {"type": "string"},
+              "size_pt": {"type": "number", "exclusiveMinimum": 0},
+              "bold": {"type": "boolean"},
+              "italic": {"type": "boolean"},
+              "color": {"$ref": "#/$defs/color"}
+            }
+          },
+          "align": {"enum": ["left", "center", "right", "justify"]},
+          "order": {"type": "integer", "minimum": 1},
+          "ocr_confidence": {"type": "number", "minimum": 0, "maximum": 1}
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "file", "box", "kind", "description", "purpose", "style", "main_colors", "layer", "rotation_deg", "opacity", "overlaps_text", "rebuild_notes"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^i[0-9]+$"},
+          "file": {"type": "string", "minLength": 1},
+          "box": {"$ref": "#/$defs/box"},
+          "kind": {"type": "string", "description": "e.g. illustration, photo, icon, shape, border"},
+          "description": {"type": "string", "minLength": 1, "description": "What it shows. Visual object only."},
+          "purpose": {"type": "string", "minLength": 1, "description": "Why it is on the page. Visual object only, never the meaning of the page text."},
+          "style": {"type": "string"},
+          "main_colors": {"type": "array", "items": {"$ref": "#/$defs/color"}},
+          "layer": {"type": "integer"},
+          "rotation_deg": {"type": "number"},
+          "opacity": {"type": "number", "minimum": 0, "maximum": 1},
+          "overlaps_text": {"type": "array", "items": {"type": "string", "pattern": "^t[0-9]+$"}},
+          "rebuild_notes": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "unknown_words": {"type": "array", "items": {"type": "string"}},
+    "doubts": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["new", "extracted", "checked", "redo", "needs_human", "approved"]}
+  }
+}

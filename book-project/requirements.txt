@@ -1,0 +1,9 @@
+pymupdf
+pillow
+google-cloud-vision
+scikit-image
+scipy
+numpy
+jsonschema
+bijoy2unicode
+python-docx
